@@ -1,0 +1,85 @@
+body{
+margin: 0;
+padding: 0;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+background: linear-gradient(to bottom, rgba(255,128,255,0.5), rgba(0,0,128,0.5));
+
+height: 100vh;
+width: 100vw;
+
+}
+.head{
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+    color:  #7a238e;
+    background: #d19cce;
+    border: 2px solid #d19cce;
+    border-radius: 20px;
+}
+form {
+    width: 50%; 
+    margin: 30px auto; 
+    border-radius: 5px; 
+    padding: 10px;
+    background: #d19cce;
+    border: 1px solid #d19cce;
+}
+form p {
+    color: red;
+    margin: 0px;
+}
+input {
+    width: 75%;
+    height: 15px; 
+    padding: 10px;
+    border: 2px solid #d19cce;
+}
+.btn {
+    height: 39px;
+    background: #FFF8DC;
+    color:  #7a238e;
+    border: 2px solid #d19cce;
+    border-radius: 5px; 
+    padding: 5px 20px;
+}
+
+table {
+width: 50%;
+margin: 30px auto;
+border-collapse: collapse;
+}
+
+tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+th {
+    font-size: 19px;
+    color: #7a238e;
+}
+
+th, td{
+    border: none;
+height: 30px;
+padding: 2px;
+}
+
+tr:hover {
+    background: #E9E9E9;
+}
+
+.task {
+    text-align: left;
+}
+
+.delete{
+    text-align: center;
+}
+.delete a{
+    color: white;
+    background: #a52a2a;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-decoration: none;
+}
